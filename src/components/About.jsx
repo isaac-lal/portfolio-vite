@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from '../../src/assets/general/about.jpeg';
+import AboutImg from '../../src/assets/about.jpeg';
 import { Slide } from 'react-awesome-reveal';
 
 const About = () => {

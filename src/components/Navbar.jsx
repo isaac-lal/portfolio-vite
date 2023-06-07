@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
-import Logo from '../../src/assets/general/logo.png';
+import Logo from '../../src/assets/logo.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
