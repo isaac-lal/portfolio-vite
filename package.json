@@ -15,7 +15,9 @@
     "react-awesome-reveal": "^4.2.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-type-animation": "^2.1.2"
+    "react-particles": "^2.10.1",
+    "react-type-animation": "^2.1.2",
+    "tsparticles": "^2.10.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
