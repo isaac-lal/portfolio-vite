@@ -124,5 +124,5 @@ export const links = [
     id: 4,
     name: 'mailto:isaaclal124@gmail.com',
     icon: <AiOutlineMail />,
-  }
+  },
 ];

@@ -60,7 +60,7 @@ const Home = () => {
               Let's Connect
             </p>
             <div className='text-base sm:text-lg flex items-center justify-between max-w-[330px] m-auto py-4'>
-              {links.map(link => (
+              {links.map((link) => (
                 <a
                   key={link.id}
                   href={link.name}
