@@ -7,7 +7,11 @@ import { Fade } from 'react-awesome-reveal';
 
 const Home = () => {
   return (
-    <Fade>
+    <Fade
+      triggerOnce
+      direction='down'
+      duration={1000}
+    >
       <div
         id='home'
         className='w-full h-screen text-center'

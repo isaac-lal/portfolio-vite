@@ -4,7 +4,13 @@ import { Slide } from 'react-awesome-reveal';
 
 const About = () => {
   return (
-    <Slide>
+    <Slide
+      triggerOnce
+      fraction={0.5}
+      duration={2000}
+      direction='left'
+      cascade
+    >
       <div
         id='about'
         className='w-full md:h-screen p-2 flex items-center py-16'
