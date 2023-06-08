@@ -1,8 +1,10 @@
+import HTML_IMG from '../src/assets/skills/html.png'
+
 export const skills = [
   {
     id: 1,
     name: 'HTML',
-    img: 'src/assets/skills/html.png',
+    img: HTML_IMG,
   },
   {
     id: 2,
