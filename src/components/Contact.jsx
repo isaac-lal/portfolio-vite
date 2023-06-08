@@ -21,11 +21,12 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log('Message sent!');
+          alert('\"Thank you for sending your message! I\'ll contact you shortly! :)\" -Isaac Lal');
           e.target.reset();
         },
         (error) => {
           console.log(error.text);
+          alert('\"There was an error sending your message. If it continues, send me an email at: isaaclal124@gmail.com :)\" -Isaac Lal');
         }
       );
   };
