@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ContactImg from '../../src/assets/contact.jpg';
-import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { BsFillPersonFill } from 'react-icons/bs';
