@@ -25,7 +25,7 @@ const Projects = () => {
             {projects.map((project) => (
               <div
                 key={project.id}
-                className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl p-4 group hover:shadow-[#00bfff] hover:scale-105 hover:bg-[#000000] ease-in duration-100'
+                className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl p-4 group hover:shadow-[#00bfff] hover:scale-105 hover:bg-black ease-in duration-100'
               >
                 <img
                   className='rounded-xl group-hover:opacity-10'

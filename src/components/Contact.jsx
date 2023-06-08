@@ -21,12 +21,16 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert('\"Thank you for sending your message! I\'ll contact you shortly! :)\" -Isaac Lal');
+          alert(
+            '"Thank you for sending your message! I\'ll contact you shortly! :)" -Isaac Lal'
+          );
           e.target.reset();
         },
         (error) => {
           console.log(error.text);
-          alert('\"There was an error sending your message. If it continues, send me an email at: isaaclal124@gmail.com :)\" -Isaac Lal');
+          alert(
+            '"There was an error sending your message. If it continues, send me an email at: isaaclal124@gmail.com :)" -Isaac Lal'
+          );
         }
       );
   };
@@ -141,7 +145,7 @@ const Contact = () => {
                       name='message'
                     ></textarea>
                   </div>
-                  <button className='cursor-pointer hover:scale-105 w-full p-4 text-gray-100 mt-4 '>
+                  <button className='cursor-pointer hover:scale-105 w-full p-4 text-gray-100 mt-4 hover:bg-[#00bfff] ease-in duration-200'>
                     Send Message
                   </button>
                 </form>
