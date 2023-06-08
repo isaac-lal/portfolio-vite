@@ -8,6 +8,7 @@ import MongoDB_IMG from '../../src/assets/skills/mongo.png';
 import Express_IMG from '../../src/assets/skills/express.png';
 import Nodejs_IMG from '../../src/assets/skills/node.png';
 import { Zoom } from 'react-awesome-reveal';
+
 const Skills = () => {
   return (
     <Zoom
