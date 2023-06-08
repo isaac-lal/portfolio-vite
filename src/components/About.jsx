@@ -1,5 +1,4 @@
 import React from 'react';
-import AboutImg from '../../src/assets/about.jpeg';
 import { Slide } from 'react-awesome-reveal';
 
 const About = () => {
@@ -24,45 +23,44 @@ const About = () => {
               Who I Am
             </h2>
             <p className='text-sm sm:text-base py-2 text-gray-300'>
-              I was always fascinated with websites ever since I was a kid
-              watching videos on youtube.com, searching things up on google.com,
-              playing games on multiple websites, and more. I loved how
-              technology made the ideas of websites come to life, but I never
-              really understood how it was made. I knew I wanted to be a part of
-              the process for years, but I really haven't gotten my head engaged
-              in it until August 2022.{' '}
+              I was always fascinated with the web ever since I was a kid in
+              middle school. I had no idea what technology was until December
+              2015, when I was in 7th grade, because I was never exposed to it
+              in my childhood. My English teacher gave me a laptop for the first
+              time to type my essay on, and I instantly fell in love with it. I
+              would just go on Google to search up a lot of things that
+              interested me, and it always had the answers to everything.
+              Knowing the power of Google just made me fall in love with
+              technology, and it just continues to rapidly improve as time
+              passes.{' '}
             </p>
 
             <p className='text-sm sm:text-base py-2 text-gray-300'>
-              With the goal of creating my own professional website, I had
-              decided to learn about{' '}
-              <span className='text-[#00bfff]'>HTML and CSS</span> to start.
-              These two technologies helped me to create a very basic website
-              with limited functionality, but still looked decent. After that, I
-              have devoted most of my time in mastering{' '}
-              <span className='text-[#00bfff]'>JavaScript</span> and concepts
-              like if-statements, for-loops, logic, and transitioning into
-              learning about Data Structures & Algorithms, along with the
-              Document Object Model (DOM). After JavaScript was done, I am now
-              using my time to learn everything about{' '}
-              <span className='text-[#00bfff]'>React</span> and styling with{' '}
-              <span className='text-[#00bfff]'>Tailwind CSS</span>.{' '}
+              Fast forward to 2022, when I am in college pursuing a Computer
+              Science major. I had absolutely no idea what I wanted to do for my
+              career. There were so many options like Web Development, App
+              Development, Machine Learning, and Game Development just to name a
+              few. I tried making atleast one of every single project for the
+              different tech fields and learning the concepts, but I fell in
+              love with Web Development 100x more than every other field. It was
+              so fun designing my websites and I was extremely engaged working
+              on them that I continued to improve my skills.{' '}
             </p>
 
             <p className='text-sm sm:text-base py-2 text-gray-300'>
-              In my experience being a front-end developer, I have loved all the
-              technologies that I am using and how it's evolving my creativity
-              and making me more efficient overall and unlocking my designing
-              potential. I am now mastering my craft in front-end development by
-              learning <span className='text-[#00bfff]'>Next.js</span> and other
-              tools that will speed up the production of design. I definitely am
-              loving the process of Web Development and it really helps me to
-              appreciate the product that I create in the end.
+              Now, I am pursuing Web Development by mastering my skills to
+              create my dream website projects sooner. I am learning every
+              single day to hone my skills and learn new technologies that just
+              make developing websites easier and more fun to do. As I master my
+              skills, my work is improving very steadily. I am very engaged in
+              the process and I will continue to be engaged and deliver quality,
+              immersive, and seamless projects that many people will come to
+              love. I hope that you are excited!{' '}
             </p>
           </div>
           <div className='w-full h-auto m-auto shadow-xl shadow-gray-100 rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
             <img
-              src={AboutImg}
+              src='../../src/assets/about.jpeg'
               className='rounded-xl'
               alt='/'
             />

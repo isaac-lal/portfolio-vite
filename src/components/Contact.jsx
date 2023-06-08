@@ -1,10 +1,7 @@
 import React, { useRef } from 'react';
+import { links } from '../data';
 import emailjs from '@emailjs/browser';
-import ContactImg from '../../src/assets/contact.jpg';
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import { BsFillPersonFill } from 'react-icons/bs';
 import { Bounce } from 'react-awesome-reveal';
 
 const Contact = () => {
@@ -57,13 +54,13 @@ const Contact = () => {
                 <div>
                   <img
                     className='rounded-xl ease-in duration-300'
-                    src={ContactImg}
+                    src='../../src/assets/contact.jpg'
                     alt='/'
                   />
                 </div>
                 <div>
                   <h2 className='py-2'>Isaac Lal</h2>
-                  <h3>Web Developer</h3>
+                  <h3>Software Engineer</h3>
                   <p className='text-sm sm:text-base py-4'>
                     I am available for communication through email. Just fill
                     out the form to send me an email and we'll talk!
@@ -74,43 +71,18 @@ const Contact = () => {
                     Let's Connect
                   </p>
                   <div className='text-base sm:text-lg flex items-center justify-between py-4'>
-                    <a
-                      href='https://www.linkedin.com/in/isaac-lal/'
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                        <FaLinkedinIn />
-                      </div>
-                    </a>
-
-                    <a
-                      href='https://github.com/isaaclal1'
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                        <FaGithub />
-                      </div>
-                    </a>
-                    <a
-                      href='https://drive.google.com/file/d/1hcCdqKBZ10_lcXw2sxjS_SyyPTbTAB4r/view?usp=sharing'
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                        <BsFillPersonFill />
-                      </div>
-                    </a>
-                    <a
-                      href='mailto:il@isaaclal.com'
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                        <AiOutlineMail />
-                      </div>
-                    </a>
+                    {links.map((link) => (
+                      <a
+                        key={link.id}
+                        href={link.name}
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                          {link.icon}
+                        </div>
+                      </a>
+                    ))}
                   </div>
                 </div>
               </div>

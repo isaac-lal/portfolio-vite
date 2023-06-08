@@ -1,7 +1,5 @@
 import React from 'react';
-import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonFill } from 'react-icons/bs';
+import { links } from '../data';
 import { TypeAnimation } from 'react-type-animation';
 import { Fade } from 'react-awesome-reveal';
 
@@ -27,11 +25,11 @@ const Home = () => {
             <h2 className='py-4 justify-center flex text-base sm:text-lg text-gray-400'>
               <TypeAnimation
                 sequence={[
+                  'A Software Engineer',
+                  3500,
                   'A Developer',
                   3500,
                   'A Coder',
-                  3500,
-                  'A Software Engineer',
                   3500,
                   'A Tech Enthusiast',
                   3500,
@@ -49,52 +47,31 @@ const Home = () => {
               />
             </h2>
             <p className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 text-gray-300 sm:max-w-[70%] m-auto'>
-              I'm learning about the technologies used to build beautiful,
-              stunning, and responsive websites to show to others. I currently
-              specialize in front-end visual aspects of the website, and I am
-              continuing to learn more tools to master my understanding in the
-              art of designing a website.
+              I'm a Software Engineer that specializes in full-stack web
+              development by implementing both front-end design and configuring
+              the back-end. Looking to be a part of the process of making
+              beautiful, responsive, and functional products, I am learning
+              every single day to improve my skills. With the belief that my
+              work ethic and dedication can contribute to something great, I
+              hope to have the opportunity to deliver that same experience with
+              you.
             </p>
             <p className='text-sm sm:text-base uppercase tracking-widest text-[#00bfff]'>
               Let's Connect
             </p>
             <div className='text-base sm:text-lg flex items-center justify-between max-w-[330px] m-auto py-4'>
-              <a
-                href='https://www.linkedin.com/in/isaac-lal/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                  <FaLinkedinIn />
-                </div>
-              </a>
-              <a
-                href='https://github.com/isaaclal1'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                  <FaGithub />
-                </div>
-              </a>
-              <a
-                href='https://drive.google.com/file/d/1hcCdqKBZ10_lcXw2sxjS_SyyPTbTAB4r/view?usp=sharing'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                  <BsFillPersonFill />
-                </div>
-              </a>
-              <a
-                href='mailto:il@isaaclal.com'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-                  <AiOutlineMail />
-                </div>
-              </a>
+              {links.map(link => (
+                <a
+                  key={link.id}
+                  href={link.name}
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                    {link.icon}
+                  </div>
+                </a>
+              ))}
             </div>
           </div>
         </div>
