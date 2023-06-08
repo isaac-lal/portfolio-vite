@@ -1,4 +1,15 @@
-import HTML_IMG from '../src/assets/skills/html.png'
+import HTML_IMG from '../src/assets/skills/html.png';
+import CSS_IMG from '../src/assets/skills/css.png';
+import JavaScript_IMG from '../src/assets/skills/javascript.png';
+import React_IMG from '../src/assets/skills/react.png';
+import Tailwind_IMG from '../src/assets/skills/tailwind.png';
+import Mongo_IMG from '../src/assets/skills/mongo.png';
+import Express_IMG from '../src/assets/skills/express.png';
+import Node_IMG from '../src/assets/skills/node.png';
+import ComingSoon_IMG from '../src/assets/projects/coming-soon.jpg';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { BsFillPersonFill } from 'react-icons/bs';
 
 export const skills = [
   {
@@ -9,37 +20,37 @@ export const skills = [
   {
     id: 2,
     name: 'CSS',
-    img: 'src/assets/skills/css.png',
+    img: CSS_IMG,
   },
   {
     id: 3,
     name: 'JavaScript',
-    img: 'src/assets/skills/javascript.png',
+    img: JavaScript_IMG,
   },
   {
     id: 4,
     name: 'React',
-    img: 'src/assets/skills/react.png',
+    img: React_IMG,
   },
   {
     id: 5,
     name: 'Tailwind CSS',
-    img: 'src/assets/skills/tailwind.png',
+    img: Tailwind_IMG,
   },
   {
     id: 6,
     name: 'MongoDB',
-    img: 'src/assets/skills/mongo.png',
+    img: Mongo_IMG,
   },
   {
     id: 7,
     name: 'ExpressJS',
-    img: 'src/assets/skills/express.png',
+    img: Express_IMG,
   },
   {
     id: 8,
     name: 'Node.js',
-    img: 'src/assets/skills/node.png',
+    img: Node_IMG,
   },
 ];
 
@@ -47,28 +58,28 @@ export const projects = [
   {
     id: 1,
     name: 'Coming Soon',
-    img: 'src/assets/projects/coming-soon.jpg',
+    img: ComingSoon_IMG,
     codeURL: '',
     demoURL: '',
   },
   {
     id: 2,
     name: 'Coming Soon',
-    img: 'src/assets/projects/coming-soon.jpg',
+    img: ComingSoon_IMG,
     codeURL: '',
     demoURL: '',
   },
   {
     id: 3,
     name: 'Coming Soon',
-    img: 'src/assets/projects/coming-soon.jpg',
+    img: ComingSoon_IMG,
     codeURL: '',
     demoURL: '',
   },
   {
     id: 4,
     name: 'Coming Soon',
-    img: 'src/assets/projects/coming-soon.jpg',
+    img: ComingSoon_IMG,
     codeURL: '',
     demoURL: '',
   },
@@ -101,10 +112,6 @@ export const navs = [
     url: '/#contact',
   },
 ];
-
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsFillPersonFill } from 'react-icons/bs';
 
 export const links = [
   {

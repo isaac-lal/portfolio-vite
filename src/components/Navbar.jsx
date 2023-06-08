@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Logo from '../assets/logo.png';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { navs, links } from '../data';
 
@@ -35,7 +36,7 @@ const Navbar = () => {
           target='_blank'
         >
           <img
-            src='src/assets/logo.png'
+            src={Logo}
             alt='/'
             width='125'
             height='100'
@@ -83,7 +84,7 @@ const Navbar = () => {
                 target='_blank'
               >
                 <img
-                  src='src/assets/logo.png'
+                  src={Logo}
                   width='100'
                   height='75'
                   alt='/'
