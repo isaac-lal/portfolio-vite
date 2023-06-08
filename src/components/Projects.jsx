@@ -44,7 +44,7 @@ const Projects = () => {
                       target='_blank'
                       rel='noreferrer'
                     >
-                      <p className='text-center py-3 rounded-3xl bg-[#333333] text-gray-300 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
+                      <p className='text-center py-3 rounded-3xl bg-[#232323] text-gray-300 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
                         Demo
                       </p>
                     </a>
@@ -53,7 +53,7 @@ const Projects = () => {
                       target='_blank'
                       rel='noreferrer'
                     >
-                      <p className='text-center py-3 rounded-3xl bg-[#333333] text-gray-300 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
+                      <p className='text-center py-3 rounded-3xl bg-[#232323] text-gray-300 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
                         Code
                       </p>
                     </a>
