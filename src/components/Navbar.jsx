@@ -35,7 +35,7 @@ const Navbar = () => {
           target='_blank'
         >
           <img
-            src='../../src/assets/logo.png'
+            src='src/assets/logo.png'
             alt='/'
             width='125'
             height='100'
@@ -83,7 +83,7 @@ const Navbar = () => {
                 target='_blank'
               >
                 <img
-                  src='../../src/assets/logo.png'
+                  src='src/assets/logo.png'
                   width='100'
                   height='75'
                   alt='/'

@@ -2,42 +2,42 @@ export const skills = [
   {
     id: 1,
     name: 'HTML',
-    img: '../../src/assets/skills/html.png',
+    img: 'src/assets/skills/html.png',
   },
   {
     id: 2,
     name: 'CSS',
-    img: '../../src/assets/skills/css.png',
+    img: 'src/assets/skills/css.png',
   },
   {
     id: 3,
     name: 'JavaScript',
-    img: '../../src/assets/skills/javascript.png',
+    img: 'src/assets/skills/javascript.png',
   },
   {
     id: 4,
     name: 'React',
-    img: '../../src/assets/skills/react.png',
+    img: 'src/assets/skills/react.png',
   },
   {
     id: 5,
     name: 'Tailwind CSS',
-    img: '../../src/assets/skills/tailwind.png',
+    img: 'src/assets/skills/tailwind.png',
   },
   {
     id: 6,
     name: 'MongoDB',
-    img: '../../src/assets/skills/mongo.png',
+    img: 'src/assets/skills/mongo.png',
   },
   {
     id: 7,
     name: 'ExpressJS',
-    img: '../../src/assets/skills/express.png',
+    img: 'src/assets/skills/express.png',
   },
   {
     id: 8,
     name: 'Node.js',
-    img: '../../src/assets/skills/node.png',
+    img: 'src/assets/skills/node.png',
   },
 ];
 
@@ -45,28 +45,28 @@ export const projects = [
   {
     id: 1,
     name: 'Coming Soon',
-    img: '../../src/assets/projects/coming-soon.jpg',
+    img: 'src/assets/projects/coming-soon.jpg',
     codeURL: '',
     demoURL: '',
   },
   {
     id: 2,
     name: 'Coming Soon',
-    img: '../../src/assets/projects/coming-soon.jpg',
+    img: 'src/assets/projects/coming-soon.jpg',
     codeURL: '',
     demoURL: '',
   },
   {
     id: 3,
     name: 'Coming Soon',
-    img: '../../src/assets/projects/coming-soon.jpg',
+    img: 'src/assets/projects/coming-soon.jpg',
     codeURL: '',
     demoURL: '',
   },
   {
     id: 4,
     name: 'Coming Soon',
-    img: '../../src/assets/projects/coming-soon.jpg',
+    img: 'src/assets/projects/coming-soon.jpg',
     codeURL: '',
     demoURL: '',
   },

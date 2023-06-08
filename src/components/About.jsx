@@ -60,7 +60,7 @@ const About = () => {
           </div>
           <div className='w-full h-auto m-auto shadow-xl shadow-gray-100 rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
             <img
-              src='../../src/assets/about.jpeg'
+              src='src/assets/about.jpeg'
               className='rounded-xl'
               alt='/'
             />
