@@ -25,7 +25,7 @@ const Projects = () => {
             {projects.map((project) => (
               <div
                 key={project.id}
-                className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl p-4 group hover:shadow-[#00bfff] hover:scale-105 hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-100'
+                className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl p-4 group hover:shadow-[#00bfff] hover:scale-105 hover:bg-[#000000] ease-in duration-100'
               >
                 <img
                   className='rounded-xl group-hover:opacity-10'
@@ -44,7 +44,7 @@ const Projects = () => {
                       target='_blank'
                       rel='noreferrer'
                     >
-                      <p className='text-center py-3 rounded-3xl bg-[#cccccc] text-gray-800 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
+                      <p className='text-center py-3 rounded-3xl bg-[#333333] text-gray-300 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
                         Demo
                       </p>
                     </a>
@@ -53,7 +53,7 @@ const Projects = () => {
                       target='_blank'
                       rel='noreferrer'
                     >
-                      <p className='text-center py-3 rounded-3xl bg-[#cccccc] text-gray-800 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
+                      <p className='text-center py-3 rounded-3xl bg-[#333333] text-gray-300 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
                         Code
                       </p>
                     </a>
