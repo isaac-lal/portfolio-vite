@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { links } from '../data';
+import Contact_IMG from '../assets/contact.jpg';
 import emailjs from '@emailjs/browser';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { Bounce } from 'react-awesome-reveal';
@@ -54,7 +55,7 @@ const Contact = () => {
                 <div>
                   <img
                     className='rounded-xl ease-in duration-300'
-                    src='../../src/assets/contact.jpg'
+                    src={Contact_IMG}
                     alt='/'
                   />
                 </div>
