@@ -58,7 +58,7 @@ const Navbar = () => {
 
           <div
             onClick={handleNav}
-            className='md:hidden'
+            className='md:hidden cursor-pointer'
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
               </a>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-[#00bfff] p-3 cursor-pointer'
+                className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:shadow-[#00bfff] ease-in duration-100'
               >
                 <AiOutlineClose />
               </div>
