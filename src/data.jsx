@@ -121,7 +121,7 @@ export const links = [
   },
   {
     id: 2,
-    name: 'https://github.com/lal-isaac',
+    name: 'https://github.com/isaac-lal',
     icon: <FaGithub />,
   },
   {
