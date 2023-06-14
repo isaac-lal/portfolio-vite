@@ -26,8 +26,8 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl bg-black shadow-[#222222] z-[100]'
-          : 'fixed w-full h-20 shadow-xl bg-black z-[100]'
+          ? 'fixed w-full h-20 shadow-xl bg-[#ecf0f3] dark:bg-black shadow-[#CCCCCC] dark:shadow-[#222222] z-[100]'
+          : 'fixed w-full h-20 bg-[#ecf0f3] dark:bg-black z-[100]'
       }
     >
       <div className='flex justify-between items-center w-full h-full px-6 2xl:px-16'>
@@ -67,13 +67,13 @@ const Navbar = () => {
 
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-[#ecf0f3]/70 dark:bg-black/70' : ''
         }
       >
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#000000] p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] dark:bg-[#000000] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -92,18 +92,18 @@ const Navbar = () => {
               </a>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:shadow-[#00bfff] ease-in duration-100'
+                className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:shadow-[#00bfff] ease-in duration-100'
               >
                 <AiOutlineClose />
               </div>
             </div>
-            <div className='border-b-4 border-gray-500 my-4'>
-              <p className='text-sm sm:text-base w-[85%] md:w-[90%] py-4 text-gray-400'>
+            <div className='border-b-4 border-gray-300 dark:border-gray-500 my-4'>
+              <p className='text-sm sm:text-base w-[85%] md:w-[90%] py-4'>
                 Welcome to my website!
               </p>
             </div>
           </div>
-          <div className='py-4 flex flex-col'>
+          <div className='py-4'>
             <ul className='uppercase'>
               {navs.map((nav) => (
                 <a
@@ -131,7 +131,7 @@ const Navbar = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-3 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                       {link.icon}
                     </div>
                   </a>

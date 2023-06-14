@@ -11,7 +11,7 @@ const About = () => {
         <div className='col-span-2'>
           <h6>About</h6>
           <h2>Who I Am</h2>
-          <p className='my-5 text-sm sm:text-base py-2 text-gray-300'>
+          <p className='my-5 text-sm sm:text-base py-2 text-gray-600 dark:text-gray-300'>
             Interacting with websites from a young age, I was very intrigued by
             the steps needed to build them. Many web applications today took
             extreme work and effort to create an extremely well-crafted version
@@ -24,7 +24,7 @@ const About = () => {
             showcase what I've done in my portfolio. I hope you enjoy!{' '}
           </p>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-100 rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
           <img
             src={About_IMG}
             className='rounded-xl'

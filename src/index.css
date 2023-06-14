@@ -14,7 +14,7 @@ body {
 
 @layer base {
   body {
-    @apply bg-black text-[#CCCCCC] tracking-wide;
+    @apply bg-[#ecf0f3] dark:bg-black text-[#1f2937] dark:text-gray-300 tracking-wide;
   }
 
   h1,
@@ -31,7 +31,7 @@ body {
   }
 
   h2 {
-    @apply py-2 sm:py-4 text-3xl sm:text-4xl text-gray-500;
+    @apply py-2 sm:py-4 text-3xl sm:text-4xl text-gray-700 dark:text-gray-500;
   }
 
   h6 {
@@ -43,9 +43,9 @@ body {
   }
 
   input {
-    @apply bg-[#121212] border-2 border-[#313131] rounded-lg p-3 flex;
+    @apply  dark:bg-[#121212] border-2 border-gray-300 dark:border-[#313131] rounded-lg p-3 flex;
   }
   button {
-    @apply shadow-xl rounded-xl bg-[#434343] uppercase text-white;
+    @apply shadow-xl rounded-xl bg-gray-400 dark:bg-[#434343] uppercase text-white;
   }
 }

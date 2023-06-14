@@ -44,7 +44,7 @@ const Contact = () => {
         <h2>Where I'm Available</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-100 rounded-xl p-4 hover:shadow-[#00bfff] ease-in duration-100'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl p-4 hover:shadow-[#00bfff] ease-in duration-100'>
             <div className='lg:p-4 h-full'>
               <div>
                 <img
@@ -54,7 +54,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Isaac Lal</h2>
+                <h2 className='py-2 text-[#00bfff]'>Isaac Lal</h2>
                 <h3>Software Engineer</h3>
                 <p className='text-sm sm:text-base py-4'>
                   I am available for communication through email. Just fill out
@@ -73,7 +73,7 @@ const Contact = () => {
                       target='_blank'
                       rel='noreferrer'
                     >
-                      <div className='rounded-full shadow-lg shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+                      <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-6 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
                         {link.icon}
                       </div>
                     </a>
@@ -84,7 +84,7 @@ const Contact = () => {
           </div>
           {/* right */}
 
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#00bfff] ease-in duration-100'>
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-100 rounded-xl lg:p-4 hover:shadow-[#00bfff] ease-in duration-100'>
             <div className='p-4'>
               <form
                 ref={form}
@@ -125,7 +125,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>
                   <textarea
-                    className='bg-[#121212] border-2 border-[#313131] rounded-lg p-3 flex'
+                    className='dark:bg-[#121212] border-2 border-gray-300 dark:border-[#313131] rounded-lg p-3 flex'
                     rows='10'
                     name='message'
                   ></textarea>
@@ -139,7 +139,7 @@ const Contact = () => {
         </div>
         <div className='flex justify-center py-12'>
           <a href='/#home'>
-            <div className='rounded-full shadow-lg shadow-gray-100 p-4 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
+            <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-100 p-4 cursor-pointer hover:scale-110 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
               <HiOutlineChevronDoubleUp
                 className='hover:text-[#00bfff]'
                 size={30}
