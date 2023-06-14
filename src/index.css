@@ -31,13 +31,20 @@ body {
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl;
+    @apply py-2 sm:py-4 text-3xl sm:text-4xl text-gray-500;
+  }
+
+  h6 {
+    @apply text-[#00bfff] text-base sm:text-xl uppercase tracking-widest;
   }
 
   li {
     @apply cursor-pointer;
   }
 
+  input {
+    @apply bg-[#121212] border-2 border-[#313131] rounded-lg p-3 flex;
+  }
   button {
     @apply shadow-xl rounded-xl bg-[#434343] uppercase text-white;
   }

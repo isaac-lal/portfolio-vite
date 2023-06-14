@@ -25,8 +25,6 @@ const Home = () => {
                 3500,
                 'A Software Engineer',
                 3500,
-                'A Developer',
-                3500,
                 'A Tech Enthusiast',
                 3500,
                 'A Digital Consumer',
@@ -34,9 +32,7 @@ const Home = () => {
                 'A Nerd',
                 3500,
                 'A Nice Person',
-                10000,
-                'one piece fan',
-                500,
+                3500,
               ]}
               wrapper='div'
               cursor={true}

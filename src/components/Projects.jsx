@@ -8,12 +8,8 @@ const Projects = () => {
       className='w-full lg:h-screen flex items-center'
     >
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='uppercase text-base sm:text-lg tracking-widest text-[#00bfff]'>
-          Projects
-        </p>
-        <h2 className='py-2 sm:py-4 text-2xl sm:text-3xl text-gray-500'>
-          What I've Built
-        </h2>
+        <h6>Projects</h6>
+        <h2>What I've Built</h2>
 
         <div className='grid md:grid-cols-2 gap-8'>
           {projects.map((project) => (
