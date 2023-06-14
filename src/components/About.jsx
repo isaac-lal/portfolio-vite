@@ -11,7 +11,7 @@ const About = () => {
         <div className='col-span-2'>
           <h6>About</h6>
           <h2>Who I Am</h2>
-          <p className='my-5 text-sm sm:text-base py-2 text-gray-600 dark:text-gray-300'>
+          <p className='my-5 text-sm sm:text-base py-2'>
             Interacting with websites from a young age, I was very intrigued by
             the steps needed to build them. Many web applications today took
             extreme work and effort to create an extremely well-crafted version
