@@ -67,7 +67,9 @@ const Navbar = () => {
 
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-[#ecf0f3]/70 dark:bg-black/70' : ''
+          nav
+            ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-[#ecf0f3]/70 dark:bg-black/70'
+            : ''
         }
       >
         <div
