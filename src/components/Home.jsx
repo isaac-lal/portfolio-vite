@@ -19,11 +19,11 @@ const Home = () => {
           <h2 className='py-4 justify-center flex text-base sm:text-lg text-gray-700 dark:text-gray-400'>
             <TypeAnimation
               sequence={[
+                'A Software Engineer',
+                3500,
                 'A Web Developer',
                 3500,
                 'A Coder',
-                3500,
-                'A Software Engineer',
                 3500,
                 'A Tech Enthusiast',
                 3500,
@@ -42,10 +42,11 @@ const Home = () => {
           </h2>
           <p className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 sm:max-w-[70%] m-auto'>
             I'm a Software Engineer that specializes in full-stack web
-            development by implementing both front-end design and configuring
-            the back-end. Looking to be a part of the process of making
-            beautiful, responsive, and functional products, I am learning every
-            single day to improve my skills.
+            development. I am looking to be a part of the process of making
+            beautiful, responsive, and functional applications and learning
+            every single day to improve my skills. With the belief that my work
+            ethic and dedication can contribute to something great, I hope to
+            have the opportunity to deliver that same experience with you.
           </p>
           <p className='text-sm sm:text-base uppercase tracking-widest text-[#00bfff]'>
             Let's Connect
