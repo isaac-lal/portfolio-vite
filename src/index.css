@@ -13,7 +13,7 @@ body {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] dark:bg-black text-black dark:text-gray-300 tracking-wide;
+    @apply bg-[#ecf0f3] dark:bg-black text-[#1f2937] dark:text-gray-300 tracking-wide;
   }
 
   h1,
