@@ -1,6 +1,6 @@
 # Isaac Lal | Portfolio
 
-### This portfolio showcases all my full-stack web development skills as a Software Engineer.
+## This portfolio showcases all my full-stack web development skills as a Software Engineer.
 
 ### Features:
 #### - Light and dark mode based on system preferences
